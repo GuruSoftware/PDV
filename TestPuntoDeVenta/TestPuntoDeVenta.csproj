@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D936FCB2-BE1C-437F-9DCA-7B930D18BA12}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestPuntoDeVenta</RootNamespace>
+    <AssemblyName>TestPuntoDeVenta</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActualizarClientesTest.cs" />
+    <Compile Include="ActualizarUsuariosTest.cs" />
+    <Compile Include="BD_INF522Test.cs" />
+    <Compile Include="BD_INF522_configCodigoDataTableTest.cs" />
+    <Compile Include="BD_INF522_configCodigoRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_configCodigoRowTest.cs" />
+    <Compile Include="BD_INF522_Table_pruebaDataTableTest.cs" />
+    <Compile Include="BD_INF522_Table_pruebaRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_Table_pruebaRowTest.cs" />
+    <Compile Include="BD_INF522_tblArticulosDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblArticulosRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblArticulosRowTest.cs" />
+    <Compile Include="BD_INF522_tblClientesDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblClientesRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblClientesRowTest.cs" />
+    <Compile Include="BD_INF522_tblCompañiaDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblCompañiaRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblCompañiaRowTest.cs" />
+    <Compile Include="BD_INF522_tblComprobanteDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblComprobanteRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblComprobanteRowTest.cs" />
+    <Compile Include="BD_INF522_tblContadoDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblContadoRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblContadoRowTest.cs" />
+    <Compile Include="BD_INF522_tblControlEntradaDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblControlEntradaRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblControlEntradaRowTest.cs" />
+    <Compile Include="BD_INF522_tblCreditoDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblCreditoRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblCreditoRowTest.cs" />
+    <Compile Include="BD_INF522_tblDetallesDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblDetallesRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblDetallesRowTest.cs" />
+    <Compile Include="BD_INF522_tblFacturaDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblFacturaRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblFacturaRowTest.cs" />
+    <Compile Include="BD_INF522_tblSuplidorDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblSuplidorRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblSuplidorRowTest.cs" />
+    <Compile Include="BD_INF522_tblUsuariosDataTableTest.cs" />
+    <Compile Include="BD_INF522_tblUsuariosRowChangeEventTest.cs" />
+    <Compile Include="BD_INF522_tblUsuariosRowTest.cs" />
+    <Compile Include="BuscarClientesTest.cs" />
+    <Compile Include="ComprobanteTest.cs" />
+    <Compile Include="ConsultaArticuloTest.cs" />
+    <Compile Include="ConsultaClienteTest.cs" />
+    <Compile Include="ConsultaEntradaUsuariosTest.cs" />
+    <Compile Include="ConsultaInventarioTest.cs" />
+    <Compile Include="ConsultaUsuariosTest.cs" />
+    <Compile Include="CryptorEngineTest.cs" />
+    <Compile Include="DataBaseTest.cs" />
+    <Compile Include="DataTablaTest.cs" />
+    <Compile Include="DataTabla_tblArticulosDataTableTest.cs" />
+    <Compile Include="DataTabla_tblArticulosRowChangeEventTest.cs" />
+    <Compile Include="DataTabla_tblArticulosRowTest.cs" />
+    <Compile Include="DataTabla_tblClientesDataTableTest.cs" />
+    <Compile Include="DataTabla_tblClientesRowChangeEventTest.cs" />
+    <Compile Include="DataTabla_tblClientesRowTest.cs" />
+    <Compile Include="DataTabla_tblCompañiaDataTableTest.cs" />
+    <Compile Include="DataTabla_tblCompañiaRowChangeEventTest.cs" />
+    <Compile Include="DataTabla_tblCompañiaRowTest.cs" />
+    <Compile Include="DataTabla_tblUsuariosDataTableTest.cs" />
+    <Compile Include="DataTabla_tblUsuariosRowChangeEventTest.cs" />
+    <Compile Include="DataTabla_tblUsuariosRowTest.cs" />
+    <Compile Include="DataTabla_tblVentasDataTableTest.cs" />
+    <Compile Include="DataTabla_tblVentasRowChangeEventTest.cs" />
+    <Compile Include="DataTabla_tblVentasRowTest.cs" />
+    <Compile Include="DBSqlTest.cs" />
+    <Compile Include="EProductoTest.cs" />
+    <Compile Include="frmAdministradorTest.cs" />
+    <Compile Include="FrmAyudaTest.cs" />
+    <Compile Include="FrmBackupTest.cs" />
+    <Compile Include="FrmBuscarArticuloTest.cs" />
+    <Compile Include="frmCajeroTest.cs" />
+    <Compile Include="FrmClientesTest.cs" />
+    <Compile Include="frmComprobanteTest.cs" />
+    <Compile Include="FrmConfiguracionTest.cs" />
+    <Compile Include="frmCuadreTest.cs" />
+    <Compile Include="frmDescuentoTest.cs" />
+    <Compile Include="frmDigitadorTest.cs" />
+    <Compile Include="FrmFacturacionTest.cs" />
+    <Compile Include="frmFacturaTest.cs" />
+    <Compile Include="frmInformacionTest.cs" />
+    <Compile Include="frmInventarioTest.cs" />
+    <Compile Include="frmPruebaTest.cs" />
+    <Compile Include="frmReporteCompraTest.cs" />
+    <Compile Include="FrmReporteTest.cs" />
+    <Compile Include="FrmVentasTest.cs" />
+    <Compile Include="INF_522_DataSetTest.cs" />
+    <Compile Include="INF_522_DataSet_tblArticulosDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblArticulosRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblArticulosRowTest.cs" />
+    <Compile Include="INF_522_DataSet_tblClientesDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblClientesRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblClientesRowTest.cs" />
+    <Compile Include="INF_522_DataSet_tblCompañiaDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblCompañiaRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblCompañiaRowTest.cs" />
+    <Compile Include="INF_522_DataSet_tblContadoDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblContadoRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblContadoRowTest.cs" />
+    <Compile Include="INF_522_DataSet_tblCreditoDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblCreditoRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblCreditoRowTest.cs" />
+    <Compile Include="INF_522_DataSet_tblDetallesDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblDetallesRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblDetallesRowTest.cs" />
+    <Compile Include="INF_522_DataSet_tblFacturaDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblFacturaRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblFacturaRowTest.cs" />
+    <Compile Include="INF_522_DataSet_tblSuplidorDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblSuplidorRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblSuplidorRowTest.cs" />
+    <Compile Include="INF_522_DataSet_tblUsuariosDataTableTest.cs" />
+    <Compile Include="INF_522_DataSet_tblUsuariosRowChangeEventTest.cs" />
+    <Compile Include="INF_522_DataSet_tblUsuariosRowTest.cs" />
+    <Compile Include="InicioTest.cs" />
+    <Compile Include="IProductoTest.cs" />
+    <Compile Include="LoginTest.cs" />
+    <Compile Include="MenuPrincipalTest.cs" />
+    <Compile Include="NuevoArticulosTest.cs" />
+    <Compile Include="NuevoClienteTest.cs" />
+    <Compile Include="NuevoCotizacionTest.cs" />
+    <Compile Include="NuevoUsuarioTest.cs" />
+    <Compile Include="ProgramTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionTest.cs" />
+    <Compile Include="VentasTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Referencias de prueba\PuntoDeVenta.accessor" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PuntoDeVenta\PuntoDeVenta.csproj">
+      <Project>{9F5F4D7F-F3DF-4209-BEF4-077EB26668C3}</Project>
+      <Name>PuntoDeVenta</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
